@@ -1,10 +1,9 @@
 {
   "name": "serial-plotter",
   "main": "./lib/serial-plotter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom plugin: Show Data from Serial Port as Graphs",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "serial-plotter:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
