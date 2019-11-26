@@ -1,4 +1,4 @@
-# serial-plotter package
+# Serial-Plotter Package
 
 Package for ATOM text editor to show data from a serial port in ATOM.
 
