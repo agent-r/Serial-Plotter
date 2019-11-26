@@ -1,5 +1,15 @@
 # serial-plotter package
 
-A short description of your package.
+Package for ATOM Text Editor to show Data from a Serial Port as a Panel in ATOM.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+I did this to show data from an Arduino, sent by this library: https://github.com/devinaconley/arduino-plotter 
+
+- Reads continuous multi-variable plots against time
+- No Support for XY-Graphs yet.
+
+Dependencies:
+
+- Python3 with Serial library installed
+- Atom "file-icons" package.
+
+this thing is working but still work-in-progress!
