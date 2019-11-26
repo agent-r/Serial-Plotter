@@ -1,0 +1,16 @@
+{
+  "connection": {
+    "baudrate": 115200,
+    "port": "unknown"
+  },
+  "window": {
+    "width": 1200,
+    "height": 300,
+    "topline": 30,
+    "bottomline": 10
+  },
+  "drawing": {
+    "color": "white",
+    "linewidth": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "connection": {
+    "baudrate": "115200",
+    "port": 1
+  },
+  "window": {
+    "height": 400,
+    "topline": 30,
+    "bottomline": 10
+  },
+  "drawing": {
+    "color": "white",
+    "linewidth": 1
+  },
+  "data": {
+    "resolution": 500.0
+  },
+  "menu": {
+    "baudrates": [300,600,1200,1800,2400,3600,4800,7200,9600,14400,19200,28800,38400, 57600, 74800, 115200, 230400, 250000, 460800, 921600]
+}
+}

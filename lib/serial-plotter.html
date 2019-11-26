@@ -1,0 +1,84 @@
+<atom-panel class='padded'>
+    <h4 class='block'>Serial Monitor</h4>
+
+    <atom-panel class='padded'>
+        <div class="inset-panel">
+            <div class="panel-heading">Port Settings</div>
+            <div class="panel-body padded">
+              <div class="form-group">
+                  <label>Port</label>
+                  <select class="port-select form-control monitor-option" id="sermon-port"></select>
+              </div>
+              <div class="form-group">
+                <label>Baudrate</label>
+                <select class="form-control monitor-option" id="sermon-baudrate">
+                  <option value="300">300</option>
+                  <option value="600">600</option>
+                  <option value="1200">1200</option>
+                  <option value="1800">1800</option>
+                  <option value="2400">2400</option>
+                  <option value="3600">3600</option>
+                  <option value="4800">4800</option>
+                  <option value="7200">7200</option>
+                  <option value="9600" selected>9600</option>
+                  <option value="14400">14400</option>
+                  <option value="19200">19200</option>
+                  <option value="28800">28800</option>
+                  <option value="38400">38400</option>
+                  <option value="57600">57600</option>
+                  <option value="74880">74880</option>
+                  <option value="115200">115200</option>
+                  <option value="230400">230400</option>
+                  <option value="250000">250000</option>
+                  <option value="460800">460800</option>
+                  <option value="921600">921600</option>
+                </select>
+              </div>
+            </div>
+        </div>
+    </atom-panel>
+
+    <atom-panel class='padded'>
+      <div class="inset-panel">
+        <div class="panel-heading">Display Settings</div>
+        <div class="panel-body padded">
+          <div class="form-group">
+              <label>Output format</label>
+              <select class="form-control monitor-option" id="sermon-format">
+                  <option value="raw" selected>RAW (print as received)</option>
+                  <option value="line">Line (print lines terminated by NL)</option>
+                  <option value="hex">HEX (print hex)</option>
+                  <option value="hexascii">HEX+ASCII (print hex + ASCII representation)</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <input class='input-toggle' type='checkbox' id='sermon-timestamp'>
+            <label>Add timestamp</label>
+          </div>
+          <div class="form-group">
+            <input class='input-toggle' type='checkbox' id='sermon-color'>
+            <label>Use color</label>
+          </div>
+        </div>
+      </div>
+    </atom-panel>
+
+    <!--
+    <atom-panel class='padded'>
+        <div class="inset-panel">
+            <div class="panel-heading">Advanced Settings</div>
+            <div class="panel-body padded">
+              blah advanced settings
+            </div>
+        </div>
+    </atom-panel>
+    -->
+
+    <p>
+      <div class='block' style='text-align:center;'>
+        <button class='btn icon icon-check inline-block-tight' id='sermon-connect'>connect</button>
+        <button class='btn icon icon-x inline-block-tight' id='sermon-cancel'>cancel</button>
+      </div>
+    </p>
+
+</atom-panel>

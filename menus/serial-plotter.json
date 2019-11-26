@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle serial-plotter",
+        "command": "serial-plotter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "serial-plotter",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "serial-plotter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
