@@ -2,13 +2,13 @@
   "name": "serial-plotter",
   "main": "./lib/serial-plotter",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Atom plugin: Show Data from Serial Port as Graphs",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "serial-plotter:toggle"
   },
-  "repository": "https://github.com/atom/serial-plotter",
+  "repository": "https://github.com/agent-r/Serial-Plotter",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
