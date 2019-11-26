@@ -10,7 +10,7 @@ I did this to show data from an Arduino, sent by this library: https://github.co
 Dependencies:
 
 - Python3 with Serial library installed
-- Atom "file-icons" package.
+- Atom "file-icons" package
 
 this thing is working but still work-in-progress!
 
