@@ -15,3 +15,5 @@ Dependencies:
 this thing is working but still work-in-progress!
 
 ![alt text](https://github.com/agent-r/Serial-Plotter/blob/master/screenshot.png)
+
+in Settings.json you can change your standard window height and your resolution (number of data points in width).
