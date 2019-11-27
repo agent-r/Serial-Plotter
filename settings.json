@@ -10,7 +10,8 @@
   },
   "drawing": {
     "color": "white",
-    "linewidth": 2
+    "linewidth": 2,
+    "datalinewidth": 2
   },
   "data": {
     "resolution": 50.0
