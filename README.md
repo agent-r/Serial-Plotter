@@ -13,6 +13,6 @@ Dependencies:
 
 this thing is working but still work-in-progress...
 
-![alt text](https://github.com/agent-r/Serial-Plotter/blob/master/screenshot.png)
+![screenshot](screenshot.png)
 
 in Settings.json you can change your standard baudrate, window height, resolution (number of data points in width), etc..
