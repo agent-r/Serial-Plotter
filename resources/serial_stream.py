@@ -1,3 +1,4 @@
+#!/usr/bin/python
 
 ##
 # The MIT License (MIT)
@@ -48,9 +49,6 @@ Also if serial port gets lost while monitoring, restart and try to connect again
 
 VERSION = "0.1.0"
 
-import sys
-# print(sys.version)
-
 import serial
 import serial.tools.list_ports
 import sys
@@ -58,8 +56,6 @@ import json
 import time
 import argparse
 import os
-
-
 
 quiet = False
 color = False
@@ -316,10 +312,10 @@ def main():
 
     parser = argparse.ArgumentParser(description='Python Serial Monitor %s' % VERSION)
 
-    parser.add_argument("-p", "--port", default="/dev/cu.usbserial-14430",
+    parser.add_argument("-p", "--port", default="/dev/ttyACM0",
                         help="Serial port")
 
-    parser.add_argument("-b", "--baudrate", type=int, default=115200,
+    parser.add_argument("-b", "--baudrate", type=int, default=9600,
                         help="Serial baudrate")
 
     parser.add_argument("-l", "--log", default=None,
