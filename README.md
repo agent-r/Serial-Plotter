@@ -5,11 +5,12 @@ Package for Atom text editor to show data from a serial port.
 I did this to show data from an Arduino (or anything else), sent by this library: https://github.com/devinaconley/arduino-plotter
 
 (+) Reads up to 5 continuous multi-variable plots against time
+
 (-) No Support for XY-graphs yet
 
 Dependencies:
-(-) Python with Serial library installed
-(-) Atom "file-icons" package
+- Python with Serial library installed
+- Atom "file-icons" package
 
 this thing is working but still work-in-progress...
 
