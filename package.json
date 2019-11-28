@@ -1,9 +1,20 @@
 {
   "name": "serial-plotter",
   "main": "./lib/serial-plotter",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Show Data from Serial Port (e.g. for Artduino) as Graphs",
-  "keywords": ["serial", "plotter", "arduino", "data", "stream", "graphs", "graph", "draw", "plot", "plotting"],
+  "keywords": [
+    "serial",
+    "plotter",
+    "arduino",
+    "data",
+    "stream",
+    "graphs",
+    "graph",
+    "draw",
+    "plot",
+    "plotting"
+  ],
   "activationCommands": {
     "atom-workspace": "serial-plotter:toggle"
   },
