@@ -2,7 +2,7 @@
   "name": "serial-plotter",
   "main": "./lib/serial-plotter",
   "version": "0.1.8",
-  "description": "Show Data from Serial Port (e.g. for Artduino) as Graphs",
+  "description": "Show Data from Serial Port (e.g. for Arduino) as Graphs",
   "keywords": [
     "serial",
     "plotter",
