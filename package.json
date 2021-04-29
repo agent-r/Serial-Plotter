@@ -1,7 +1,7 @@
 {
   "name": "serial-plotter",
   "main": "./lib/serial-plotter",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Show Data from Serial Port (e.g. for Arduino) as Graphs",
   "keywords": [
     "serial",
