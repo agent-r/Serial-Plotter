@@ -1,15 +1,15 @@
 #include "Plotter.h"
 
-int x;
-int min = 0;
-int max =100;
+double x;
+double min = 0;
+double max =100;
 
 Plotter p;
 
 void setup()
 {
         p.Begin();
-        p.AddTimeGraph( "Some title of a graph", 150, "label for x", x, "label for min", min, "label for max", max);
+        p.AddTimeGraph( "Some title of a graph", 100, "label for x", x, "label for min", min, "label for max", max);
 
 }
 
@@ -21,6 +21,6 @@ void loop() {
 
         p.Plot(); // usually called within loop()
         x++;
-        delay(10);
+        delay(100);
 
 }
